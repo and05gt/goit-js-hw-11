@@ -5,6 +5,7 @@
   |============================
 */
 @import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400..600&display=swap');
 
 *,
 *::before,
@@ -17,6 +18,7 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+  letter-spacing: 0.64px;
 
   color: #242424;
   background-color: rgba(255, 255, 255, 0.87);
@@ -45,7 +47,6 @@ input {
   border: 1px solid #808080;
   padding: 8px 16px;
   background-color: #fff;
-  color: #808080;
   color: #2e2f42;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -57,11 +58,7 @@ input {
 }
 
 input::placeholder {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+  color: #808080;
 }
 
 input:hover {
@@ -127,30 +124,26 @@ button:hover {
   padding: 4px 25px 4px 20px;
 }
 
-.text-wrapper {
+.text-wrap {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.text-wrapper h3 {
+.text-wrap h3 {
   color: #2e2f42;
-  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
   letter-spacing: 0.48px;
 }
 
-.text-wrapper p {
+.text-wrap p {
   text-align: center;
   display: flex;
   flex-direction: column;
   color: #2e2f42;
-  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
-  font-weight: 400;
-  line-height: 24px;
   letter-spacing: 0.48px;
 }
 
